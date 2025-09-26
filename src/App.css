@@ -1,3 +1,12 @@
 .purple-gradient{
     background: linear-gradient(#632EE3 0%,#9F62F2 100%);                         
 }
+
+/* Footer Color Classes */
+.footer-title-color {
+    color: #FFFFFF !important;
+}
+
+.footer-text-color {
+    color: #A1A1AA !important;
+}
