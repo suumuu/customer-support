@@ -1,6 +1,6 @@
 .inProgress-card {
     position: relative;
-    background: linear-gradient( #632EE3 0%, #9F62F2 100%);
+    background: linear-gradient(135deg, #632EE3 0%, #9F62F2 100%);
     overflow: hidden;
 }
 
