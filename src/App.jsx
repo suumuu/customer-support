@@ -29,9 +29,9 @@ function App() {
                   <h1 className="card-title text-[60px] font-semibold ">0</h1>
                 </div>
               </div>
-              <div className="card bg-base-100 w-96 shadow-sm px-25 flex inProgress-card">
+              <div className="card bg-base-100 w-96 shadow-sm px-25 flex resolved-card">
                 <div className="card-body flex items-center">
-                  <p className='text-[24px] font-regular'>In-Progress</p>
+                  <p className='text-[24px] font-regular'>resolved</p>
                   <h1 className="card-title text-[60px] font-semibold ">0</h1>
                 </div>
               </div>

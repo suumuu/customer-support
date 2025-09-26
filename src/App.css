@@ -1,6 +1,6 @@
 .inProgress-card {
     position: relative;
-    background: linear-gradient(#632EE3 0%, #9F62F2 100%);
+    background: linear-gradient( #632EE3 0%, #9F62F2 100%);
     overflow: hidden;
 }
 
@@ -28,6 +28,35 @@
     transform: scaleX(-1); /* Flips the image horizontally */ 
 }
 
+.resolved-card {
+    position: relative;
+    background: linear-gradient(to right, #54CF68 0%, #00827A 100%);
+    overflow: hidden;
+}
+
+.resolved-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url('./assets/vector1.png') no-repeat left top;
+    background-size: contain;
+    transform: scaleX(1); /* Flips the image horizontally */ 
+}
+
+.resolved-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url('./assets/vector1.png') no-repeat left top;
+    background-size: contain;
+    transform: scaleX(-1); /* Flips the image horizontally */ 
+}
 /* Footer Color Classes */
 .footer-title-color {
     color: #FFFFFF !important;
