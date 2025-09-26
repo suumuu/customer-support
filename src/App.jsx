@@ -21,8 +21,14 @@ function App() {
             <a className="btn text-white purple-gradient px-4 py-3"><span className='gap-2.5'>+</span>New Ticket</a></div>
         </Container>
       </nav>
-      <main className='m-20'>
+      <main className='m-20 text-white'>
         <Container>
+              <div className="card bg-base-100 w-96 shadow-sm px-25 flex inProgress-card">
+                <div className="card-body flex items-center">
+                  <p className='text-[24px] font-regular'>In-Progress</p>
+                  <h1 className="card-title text-[60px] font-semibold ">0</h1>
+                </div>
+              </div>
               <div className="card bg-base-100 w-96 shadow-sm px-25 flex inProgress-card">
                 <div className="card-body flex items-center">
                   <p className='text-[24px] font-regular'>In-Progress</p>
