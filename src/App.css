@@ -1,5 +1,31 @@
-.purple-gradient{
-    background: linear-gradient(#632EE3 0%,#9F62F2 100%);                         
+.inProgress-card {
+    position: relative;
+    background: linear-gradient(#632EE3 0%, #9F62F2 100%);
+    overflow: hidden;
+}
+
+.inProgress-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url('./assets/vector1.png') no-repeat left top;
+    background-size: contain;
+    transform: scaleX(1); /* Flips the image horizontally */ 
+}
+
+.inProgress-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url('./assets/vector1.png') no-repeat left top;
+    background-size: contain;
+    transform: scaleX(-1); /* Flips the image horizontally */ 
 }
 
 /* Footer Color Classes */

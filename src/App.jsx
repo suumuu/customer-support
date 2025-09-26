@@ -23,7 +23,7 @@ function App() {
       </nav>
       <main className='m-20'>
         <Container>
-              <div className="card bg-base-100 w-96 shadow-sm px-25 flex linear">
+              <div className="card bg-base-100 w-96 shadow-sm px-25 flex inProgress-card">
                 <div className="card-body flex items-center">
                   <p className='text-[24px] font-regular'>In-Progress</p>
                   <h1 className="card-title text-[60px] font-semibold ">0</h1>
