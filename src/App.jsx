@@ -21,11 +21,18 @@ function App() {
             <a className="btn text-white purple-gradient px-4 py-3"><span className='gap-2.5'>+</span>New Ticket</a></div>
         </Container>
       </nav>
-      <main className=''>
-
+      <main className='m-20'>
+        <Container>
+              <div className="card bg-base-100 w-96 shadow-sm px-25 flex linear">
+                <div className="card-body flex items-center">
+                  <p className='text-[24px] font-regular'>In-Progress</p>
+                  <h1 className="card-title text-[60px] font-semibold ">0</h1>
+                </div>
+              </div>
+        </Container>
       </main>
-      <footer className="bg-neutral p-10">
-        <div className="flex flex-col sm:flex-row gap-8 sm:gap-4 justify-between">
+      <footer className="bg-neutral p-10 pb-0 flex flex-col">
+        <div className="flex flex-col sm:flex-row gap-8 sm:gap-4 justify-between border-b border-gray-800 pb-10">
           <nav className="flex-1 flex flex-col space-y-3">
             <h6 className="footer-title font-semibold footer-title-color">CS — Ticket System</h6>
             <p className="text-sm leading-relaxed footer-text-color">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -89,6 +96,11 @@ function App() {
             </a>
           </nav>
         </div>
+        <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content items-center justify-center p-4 ">
+          <aside className="grid-flow-col">
+            <p>© 2025 CS — Ticket System. All rights reserved.</p>
+          </aside>
+        </footer>
       </footer>
     </>
   )
